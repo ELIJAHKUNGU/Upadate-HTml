@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./Css/bootstrap.min.css">
+   
+     <link rel="stylesheet" href="./Css/all.min.css">
+     <link rel="stylesheet" href="./Css/style.css">
+     <link rel="stylesheet" href="./Css/responsive.css">
+    <title>www.rieng.co.ke</title>
+</head>
+<body>
+    <header>
+        <div class="container-fluid">
+            <nav class="navbar navbar-expand-md">
+                <!-- Brand -->
+                <div class="navbar-header">
+                <a class="navbar-brand" href="#">
+                    Rieng
+                 </a>
+                  <!-- Toggler/collapsibe Button -->
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+               
+                </div>
+                <!-- Navbar links -->
+               
+               <div class="collapse navbar-collapse" id="collapsibleNavbar">     
+                  <ul class="navbar-nav">
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">FAQ</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contacts Us</a>
+                      </li>
+                       <!-- Register-->
+                       <li class="nav-item dropdown account">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+                            <i class="fas fa-user px-2"></i>
+                            Login
+                         
+                        </a>
+                        <div class="dropdown-menu register">
+                          <a class="dropdown-item" href="#"  data-toggle="modal" data-target="#mentor">Mentor</a>
+                          <a class="dropdown-item" href="#" data-target="#mentee">Mentee</a>
+                        </div>
+                      </li>
+    
+                    
+                       <!-- Register-->
+                    
+                     
+                      <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+                            <i class="fas fa-user px-2"></i> Sign Up
+                        </a>
+                        <div class="dropdown-menu">
+                          <a class="dropdown-item" href="#" data-toggle="modal" data-target="#mentor">Mentor</a>
+                          <a class="dropdown-item" href="#" data-toggle="modal" data-target="#mentee">Mentee</a>
+                        </div>
+                      </li>
+    
+                      
+                  </ul>
+                </div>
+              </nav>
+        </div>
+          <div class="container container-fluid banner">
+             <h1>Hello, Tuko Rieng!!</h1>
+             <h6>Rieng is platform where you get mentored by your role model by learning what they <br>
+                 do uniquely everyday that makes them a success</h6>
+             <p class="py-5">We invite you to join your Squad and get mentored by Your Favourite celebrites and <br>
+                 Social Lites
+                 and Interact with them 
+             </p>
+             <div class="button">
+                 <button type="button"  class="btn mentor-btn"  data-toggle="modal" data-target="#mentor">Mentor</button>
+                 <button type="button" class="btn mentee-btn" data-toggle="modal" data-target="#mentee">Mentee</button>
+             </div>
+             <div class="banner-image">
+                 <img src="./Images/gang-removebg-preview.png" alt="" class="image-fluid">
+             </div>
+            
+
+  
+              <!-- The Modal Mentor -->
+                <div class="modal" id="mentor">
+                    <div class="modal-dialog">
+                    <div class="modal-content">
+                
+                        <!-- Modal Header -->
+                        <div class="modal-header">
+                        <h4 class="modal-title">Create An Account as Mentor</h4>
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                        </div>
+                
+                        <!-- Modal body -->
+                        <div class="modal-body">
+                            <form action="" method="get">
+                                <input type="text" id="" name="" placeholder="Username" class="form-control form-control-lg" required>
+                                <input type="email" id="" name="" placeholder="Email" class="form-control form-control-lg" required>
+                                <input type="number" id="" name="" placeholder="Phone Number" class="form-control form-control-lg" required>
+                                <input type="password" id="" name="" placeholder="Password" class="form-control form-control-lg" required>
+                                <input type="password" id="" name="" placeholder="Confirm password" class="form-control form-control-lg" required>
+                                <input type="submit"  class="form-control  submit" id="submit" placeholder="Submit" name="submit">
+                            </form>
+
+                      
+                        </div>
+                
+                        <!-- Modal footer -->
+                        <div class="modal-footer">
+                        <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                        </div>
+                
+                    </div>
+                    </div>
+                 </div>
+                 <!-- The Modal Mentee -->
+                <div class="modal" id="mentee">
+                    <div class="modal-dialog">
+                    <div class="modal-content">
+                
+                        <!-- Modal Header -->
+                        <div class="modal-header">
+                        <h4 class="modal-title">Create An Account as Mentor</h4>
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                        </div>
+                
+                        <!-- Modal body -->
+                        <div class="modal-body">
+                        Modal body..
+                        </div>
+                
+                        <!-- Modal footer -->
+                        <div class="modal-footer">
+                        <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                        </div>
+                
+                    </div>
+                    </div>
+                 </div>
+  
+          </div>
+       
+    </header>
+    <main>
+        <section id="aboutus">
+            <div class="container">
+                <div class="about-us">
+                    <h2 class="title">Rieng ?</h2>
+                    <p class="text-1 py-5">Rieng is a platform where you interact with local celebrites freely. <br>
+                          Learn  and be mentored by your role model by learning what they <br>
+                           do uniquely  everyday that makes them a successs </p>
+                   </p>
+                   <p class="text-2">  Reach Out Us Now and earn More</p>
+                   <button class="btn get-started"> Get Started</button>
+                </div>
+                <div class="info">
+                    
+    
+                </div>
+            </div>
+
+        </section>
+
+        <section id="work" class="work">
+            
+            <div class="container">
+                <h2 class="title">How it Works</h2>
+               <div class="row">
+                 <div class="process reach-us">
+                    <div class="col-3">
+                        <div class="item">
+                            <span>1</span>
+                        </div>
+                        <div class="process-text">
+                         <p class="py-4">Browse through the list of role model <br>
+                        Choose the role model you want to learn from</p>
+
+                        </div>
+                    </div>
+                    <div class="col-3 mentor">
+                        <div class="item">
+                            <span>2</span>
+                        </div>
+                        <div class="process-text">
+                            <p class="py-4">Pay  their  monthly fee indicated against their name
+                            using our Pay Bill provided  </p>
+
+                        </div>
+                    </div>
+                    <div class="col-3 mentee">
+                        <div class="item">
+                            <span>3</span>
+                        </div>
+                        <div class="process-text">
+                            <p class="py-4">Everyday your role model will send you a text message containing what they are doing that day</p>
+                           
+
+                        </div>
+                 </div>
+                </div>
+               </div>
+            </div>
+
+        </section>
+        <section id="contacts" class="contacts">
+            
+            <div class="container">
+                <h1 class="title">Contacts</h2>
+                    <h3>Interact With Us For Better <br> Service Delivery</h3>
+                    <h6>Contact us on +254 700 000 00 or +254 700 000 000</h6>
+                    <div class="row-1">
+                        <div class=" contact mail">
+                            <i class="far fa-envelope"></i>
+                            <p>Facebook</p>
+                            <p>Send Mail</p>
+                        </div>
+                        <div class="contact facebook">
+                            <i class="fab fa-facebook-f"></i>
+                            <p>Facebook</p>
+                            <p>Send Mail</p>
+                        </div>
+                        <div class="contact twitter">
+                            <i class="fab fa-twitter"></i>
+                            <p>Facebook</p>
+                            <p>Send Mail</p>
+                        </div>
+                    </div>
+                    <div class="row-1 py-4">
+                        <div class=" contact instagram">
+                            <i class="fab fa-instagram"></i>
+                            <p>Facebook</p>
+                            <p>Send Mail</p>
+                        </div>
+                        <div class="contact youtube">
+                            <i class="fab fa-youtube"></i>
+                            <p>Facebook</p>
+                            <p>Send Mail</p>
+                        </div>
+                        <div class="contact telegram">
+                            <i class="fab fa-telegram-plane"></i>
+                            <p>Facebook</p>
+                            <p>Send Mail</p>
+                        </div>
+                    </div>
+               
+                
+            </div>
+        </section>
+
+    </main>
+    <footer>
+        <div class="container">
+            <hr>
+            <div class="row">
+                <p>2020 Copyright of Lulu Technologies LTD</p>
+            <span>Terms    || Privacy</span>
+            </div>
+        </div>
+    </footer>
+    
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+     integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" 
+integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" 
+integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+</body>
+</html>

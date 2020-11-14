@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/all.min.css">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Rieng Platform</title>
+</head>
+
+<body>
+    <header>
+        <!----------------Navbar-->
+
+        <nav>
+            <div class="container">
+                <div class="navbar-brand account">
+                    <h2>Rieng <span>Platform</span></h1>
+                        <a href="index.html">Home</a>
+
+                </div>
+            </div>
+        </nav>
+        <div class="account-page">
+            <div class="container">
+                <div class="row">
+                    <div class="form">
+                        <div class="form-btn">
+                            <span onclick="login()">Login</span>
+                            <span onclick="register()">Register</span>
+                            <hr id="Indicator">
+
+                        </div>
+                        <form action="" id="LoginForm">
+                            <input type="text" placeholder="  Full Name">
+                            <input type="password" placeholder="   User Password ">
+                            <p><a href="">forgot password</a></p>
+                            <button type="submit" class="btn btn-login">Login</button>
+
+                        </form>
+                        <form action="" id="RegForm">
+                            <input type="text" placeholder="  Full Name  " required>
+                            <input type="email" placeholder=" Email " required>
+                            <input type="password" placeholder=" Password" required>
+                            <button type="submit" class="btn btn-register">Register</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+        <script>
+            var LoginForm = document.getElementById("LoginForm");
+            var RegForm = document.getElementById("RegForm");
+            var Indicator = document.getElementById("Indicator");
+
+
+            function register() {
+                RegForm.style.transform = "translateX(0px)";
+                LoginForm.style.transform = "translateX(0px)";
+                Indicator.style.transform = "translateX(100px)";
+                LoginForm.style.display = "none"
+                RegForm.style.display = "block"
+
+            }
+
+            function login() {
+                RegForm.style.transform = "translateX(300px)";
+                LoginForm.style.transform = "translateX(0px)";
+                Indicator.style.transform = "translateX(-10px)";
+                RegForm.style.display = "none";
+                LoginForm.style.display = "block"
+
+            }
+        </script>
+
+
+
+
+
+        <!--   footer-->
+        <footer>
+            <div class="container">
+                <hr>
+                <div class="row">
+                    <p>2020 &copy; Copyright of Lulu Technologies LTD</p>
+                    <span>Terms    || Privacy</span>
+                </div>
+            </div>
+        </footer>
+</body>
+
+</html>

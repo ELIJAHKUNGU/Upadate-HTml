@@ -1,0 +1,75 @@
+    * {
+        padding: 0px;
+        margin: 0px;
+    }
+    
+    body {
+        max-height: 100vh;
+        background-color: #373737;
+    }
+    
+    h1 {
+        position: relative;
+        color: #f9f9f9;
+        font-weight: 500px;
+        margin-bottom: 5px;
+        margin-right: 40px;
+        display: flex;
+        justify-content: center;
+        margin-top: 100px;
+    }
+    
+    #form {
+        position: relative;
+        align-items: center;
+        display: flex;
+        justify-content: center;
+    }
+    
+    #email {
+        width: 300px;
+        background: #292929;
+        outline: none;
+        padding: 10px;
+        border-radius: 6px;
+        color: #Ffff;
+        font-style: 18px;
+    }
+    
+    #text {
+        display: block;
+        color: 0000;
+        font-weight: 300;
+        font-style: italic;
+        padding: 5px;
+    }
+    
+    .inputBox {
+        position: relative;
+    }
+    
+    #form.invalid .inputBox:before {
+        content: "";
+        position: absolute;
+        right: 12px;
+        top: 12px;
+        width: 24px;
+        height: 24px;
+        background: url(./invalid.png);
+        background-size: cover;
+        z-index: 1000;
+        margin: -2px;
+    }
+    
+    #form.valid .inputBox:before {
+        content: "";
+        position: absolute;
+        right: 12px;
+        top: 12px;
+        width: 24px;
+        height: 24px;
+        background: url(./valid.png);
+        background-size: cover;
+        z-index: 1000;
+        margin: -2px;
+    }

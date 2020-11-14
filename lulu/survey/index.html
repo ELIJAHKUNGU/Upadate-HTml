@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./bootstrap.min.css">
+    <link rel="stylesheet" href="./bootstrap.min.js">
+    <link rel="stylesheet" href="./style.css">
+    <title>Lulu Survey monkey</title>
+</head>
+
+<body>
+    <div class="container container-fluid">
+        <h2 class="text-center">Lulu Survey </h2>
+        <button onclick="create()" id="createsurvey">Create Your Survey</button>
+    </div>
+    <div class="container form" id="createName">
+        <form action="">
+            <input type="text" class="name form-control" placeholder="The Name of survey" required>
+            <input type="submit" class="submit form-control">
+            <button class="btn">Close</button>
+        </form>
+    </div>
+
+
+
+</body>
+<script>
+    const createName = document.getElementById('createName');
+    const createsurvey = document.getElementById('createsurvey');
+
+    function create() {
+        createName.style.display = "block";
+        createsurvey.style.display = "none";
+    }
+</script>
+
+</html>

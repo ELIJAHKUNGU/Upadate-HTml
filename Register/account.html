@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Accounts</title>
+</head>
+<style>
+    .account-page{
+        padding: 50px 0;
+        background: radial-gradient(#fff,#ffd6d6);
+    }
+    .form-container{
+        background: #ffffff;
+        width: 300px;
+        height: 400px;
+        position: relative;
+        text-align: center;
+        padding: 20px 0;
+        margin: auto;
+        box-shadow: 0 0 20px 0 rgba(0,0,0,0.1);
+    }
+    .form-container span{
+        font-weight: bold;
+        padding: 0 10px;
+        cursor:  pointer;
+        width: 100px;
+        display: inline-block;
+    }
+    .form-btn{
+        display: inline-block;
+    }
+
+    .form-container form{
+        max-width: 300px;
+        padding: 0 20px;
+        position: absolute;
+        top: 130px;
+        transition: transform .5s;
+        overflow: hidden;
+    }
+    .btn{
+        background: #ff7201;
+        height: 30px;
+        border-radius: 40px;
+    }
+    form input{
+        width: 100%;
+        height: 30px;
+        margin: 10px 0;
+        border: 1px solid #ccc;
+
+    }
+    form .btn{
+        width: 100%;
+        border: none;
+        cursor: pointer;
+        margin: 10px 0;
+    }
+    form .btn:focus {
+        outline: none;
+    }
+    #LoginForm{
+        left: -300px;
+
+    }
+    #RegForm{
+        left: 0;
+    }
+    form a{
+        font-size: 1.2rem;
+    }
+    #Indicator{
+        width: 100px;
+        border: none;
+        background: #ff523b;
+        height: 3px;
+        margin-top: 8px;
+        transform: translateX(80px);
+        transition: transform .5s;
+    }
+
+
+</style>
+<body>
+<!--                  navbar                       -->
+<div class="account-page">
+    <div class="container">
+        <div class="row">
+            <div class="col-2">
+              <!--<img src="images/turtle.jpg" alt="" width="100%">-->
+            </div>
+            <div class="col-2">
+                <div class="form-container">
+                    <div class="form-btn">
+                        <span onclick="login()">Login</span>
+                        <span onclick="register()">Register</span>
+                        <hr id="Indicator">
+
+                    </div>
+                    <form action="" id="LoginForm">
+                        <input type="text" placeholder="Username">
+                        <input type="password" placeholder="Password">
+                        <button type="submit" class="btn">Login</button>
+                        <a href="">forgot password</a>
+                    </form>
+                    <form action="" id="RegForm">
+                        <input type="text" placeholder="Username">
+                        <input type="email" placeholder="Email">
+                        <input type="password" placeholder="Password">
+                        <button type="submit" class="btn">Register</button>
+                    </form>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+    <script>
+        var LoginForm = document.getElementById("LoginForm");
+        var RegForm = document.getElementById("RegForm");
+        var Indicator  = document.getElementById("Indicator");
+
+
+        function register() {
+            RegForm.style.transform  = "translateX(0px)";
+            LoginForm.style.transform  = "translateX(0px)";
+            Indicator.style.transform = "translateX(80px)";
+
+        }
+        function login() {
+            RegForm.style.transform  = "translateX(300px)";
+            LoginForm.style.transform  = "translateX(300px)";
+            Indicator.style.transform = "translateX(-50px)";
+
+        }
+
+
+    </script>
+
+
+
+
+
+                  <!--   footer-->
+</body>
+</html>

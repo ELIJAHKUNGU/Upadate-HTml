@@ -1,0 +1,88 @@
+/*========
+This File should
+not copied at any circumstances
+============*/
+
+
+/*======
+Global 
+style
+=================*/
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    scroll-behavior: smooth;
+}
+
+
+/*=======
+navbar
+===========*/
+
+header {
+    height: 900px;
+    width: 100%;
+    background-color: rgb(7, 2, 26);
+}
+
+nav {
+    background-color: rgb(7, 2, 26);
+    height: 80px;
+}
+
+.menu-items {
+    margin-left: 20rem;
+}
+
+.nav-link li {
+    margin-left: 15px;
+}
+
+.account {
+    float: right;
+}
+
+
+/*=========
+Banner
+Section
+=================*/
+
+.banner-section {
+    margin-top: 12rem;
+}
+
+.banner-section h1,
+.banner-section h6 {
+    color: #ffffff;
+}
+
+button {
+    width: 200px;
+    height: 60px;
+    margin-top: 50px;
+    background-color: #e40d0d;
+    border: none;
+    border-radius: 40px;
+    color: #ffffff;
+}
+
+button:hover {
+    background-color: #ffffff;
+    color: #000000;
+}
+
+.banner-image {
+    transform: translateY(-30rem);
+    margin-left: 35rem;
+}
+
+.banner-section p {
+    color: #ffffff;
+    margin-top: 50px;
+}

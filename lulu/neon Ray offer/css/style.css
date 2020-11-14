@@ -1,0 +1,112 @@
+* {
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+
+.banner-section {
+    background-color: #e0d2d2;
+}
+
+.container {
+    margin-left: -30rem;
+}
+
+.banner-text {}
+
+.join {
+    color: #000000;
+    font-size: 30px;
+    margin-bottom: 50px;
+}
+
+.smart-phone {
+    color: #000000;
+    font-size: 50px;
+    margin-bottom: 40px;
+    font-weight: 700;
+    font-style: bold;
+}
+
+.text {
+    font-weight: 700;
+}
+
+a {
+    color: tomato;
+    text-decoration: none;
+}
+
+button {
+    color: tomato;
+    border: none;
+    width: 200px;
+    height: 60px;
+}
+
+.Account {
+    background-color: tomato;
+    color: #ffffff;
+    border-radius: 20px;
+}
+
+.contacts {
+    background-color: #ffffff;
+    color: #000000;
+    border-radius: 20px;
+}
+
+.Account:focus,
+.contacts:focus {
+    outline: none;
+    border: none;
+}
+
+.sign:hover {
+    color: tomato;
+}
+
+li {
+    list-style: none;
+    font-size: 30px;
+    background-color: #ffffff;
+}
+
+p {
+    font-size: 20px;
+}
+
+.banner-image {
+    transform: translateY(-19rem);
+    margin-left: 33rem;
+    width: 600px;
+    height: 600px;
+}
+
+.banner-image img {
+    object-fit: cover;
+    background-repeat: no-repeat;
+}
+
+@media only screen and (max-width: 600px) {
+    .banner-image {
+        transform: translateX(-37rem);
+        height: 500px;
+        width: 500px;
+    }
+    button {
+        width: 140px;
+    }
+    .button {
+        display: flex;
+    }
+    .contacts {
+        margin-left: 10px;
+    }
+    .Account {
+        border-radius: 20px;
+    }
+    footer {
+        margin-bottom: 50px;
+    }
+}

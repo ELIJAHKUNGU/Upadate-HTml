@@ -1,0 +1,198 @@
+/*========
+responsive
+css
+============*/
+
+
+
+/*=========
+mobile 
+responsiveness
+============= */
+@media (max-width: 960px) {
+    header{
+        width: 100%;
+        height: 90rem;
+    }
+    main{
+        margin-top: -35px;
+    }
+    .banner-image{
+        transform: translateY(-600px);
+        margin-top: 35rem;
+        width:70%;
+      
+    }
+    .banner-image img{
+        transform: translateX(-780px);
+       
+
+    }
+    .banner .button{
+        margin-top: 40px;
+        display: flex;
+        padding: 20px;
+
+
+    }
+    .button button{
+        margin:  0 5px;
+        width: 300px;
+    }
+    .about-us{
+        margin-top: 40px;
+    }
+    .title{
+        text-align: center;
+        color: #000000;
+    }
+    .container{
+        width: 100%;
+    }
+    .about-us .title{
+      
+        color: #000000;
+        transform: translateX(22rem)
+    }
+    .row{
+        display: block;
+    }
+    .info .col-2{
+        margin-top: 250px;
+    }
+    .info{
+        transform: translateX(-30.5rem);
+        margin-top: 30px;
+    }
+    .work h2{
+        margin-top: 40px;
+        transform: translateX(-40px);
+
+    }
+    .process .mentor{
+        transform: translateX(-18rem);
+        margin-top: 30rem;
+        
+    }
+    .process .mentee{
+        transform: translateX(-35rem);
+        margin-top: 60rem;
+       
+       
+       
+
+    }
+    .col-3 .process-text{
+        padding-top: 0 10px;
+
+    }
+    .faq-title{
+        display: none;
+    }
+   .faq-title-small{
+       display: block;
+       transform: translateX(-40px);
+   }
+   .frequent-one{
+       width: 300px;
+       height: 400px;
+       padding: 25px;
+       transform: translateX(-20px);
+
+   }
+   .row-1{
+       display: block;
+       padding: 10px 30px;
+       transform: translateX(-40px);
+       
+
+
+   }
+   .contact{
+       margin: 25px 25px;
+   }
+   footer{
+       text-align: center;
+   }
+   footer .row p{
+       margin-left: -15px;
+   }
+
+}
+/* if the viewport is equal to 1910px or less than that  
+@media  (min-width: 1000px){
+                }.container{
+                    width: 90%;
+                }
+                .banner-image img{
+                    transform: translateX(-500px);
+                
+
+                }
+                .info{
+                    margin-top: 30px;
+                }
+                .info .mentee-col{
+                    transform: translateX(25rem);
+                    margin-top: -400px;
+                
+                }
+                .process {
+                    transform: translateX(-5rem);
+
+                    
+                }
+                .process .mentor{
+                    transform: translateY(-30rem);
+
+                }
+                .process .mentee{
+                    transform: translateY(-60rem);
+
+                }
+                .faq{
+                    margin-top: -50rem;
+                }
+                .frequent-one{
+                    width: 700px;
+                    height: 200px;
+                }
+                .row-1{
+                
+                }
+                .contact{
+                    transform:translateX( -85px);
+                    width: 350px;
+                    margin-left:30px;
+                    margin-bottom: -50px;
+                    
+                }
+                .facebook{
+                    transform:translateY(-70px);
+                    margin-left: 400px;
+
+                }
+
+                .instagram{
+                    transform:translateY(-100px);
+                    margin-left: 400px;
+
+                }
+                .telegram{
+                    transform:translateY(-70px);
+                    margin-left: 400px;
+                    
+                }
+                .contact:hover{
+                    transform: translateY(0px);
+                    transform: translateX(-0px);
+                }
+
+}
+
+@media(hover :none){
+    .contact:hover{
+        transform: inherit;
+    }
+}
+*/

@@ -1,0 +1,230 @@
+/*========
+
+============*/
+
+
+/*======
+Global 
+style
+=================*/
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    scroll-behavior: smooth;
+}
+
+
+/*=======
+navbar
+===========*/
+
+header {
+    height: 769px;
+    width: 100%;
+    background-color: rgb(224, 222, 228);
+}
+
+nav {
+    background-color: rgb(248, 247, 255);
+    height: 80px;
+}
+
+.brand-logo img {
+    color: #000000;
+}
+
+nav .nav-link .nav-item {
+    color: #000000;
+}
+
+.menu-items {
+    margin-left: 20rem;
+}
+
+.account {
+    margin-left: 20rem;
+    text-transform: capitalize;
+}
+
+.nav-link li {
+    margin-left: 15px;
+}
+
+
+/*=========
+Banner
+Section
+=================*/
+
+.banner-section {
+    margin-top: 12rem;
+}
+
+.banner-section h1,
+.banner-section h6 {
+    color: #181616;
+}
+
+button {
+    width: 200px;
+    height: 60px;
+    margin-top: 50px;
+    border: none;
+    border-radius: 10px;
+    color: #ffffff;
+}
+
+.freelancer {
+    background-color: #e40d0d;
+}
+
+.hire {
+    border: 2px solid #ffffff;
+    margin-left: 20px;
+    color: #000000;
+}
+
+.freelancer:hover {
+    background-color: transparent;
+    border: 2px solid #ffffff;
+    color: #000000;
+}
+
+.hire:hover {
+    background-color: #e40d0d;
+    color: #ffffff;
+}
+
+
+/*=======
+Employeees
+==============*/
+
+.hires {
+    border-bottom: 1px solid #b3afaf;
+}
+
+.row {
+    display: flex;
+}
+
+.hires .row {
+    justify-content: space-between;
+}
+
+.hires .row p {
+    font-size: 30px;
+}
+
+.hire-item {
+    display: flex;
+}
+
+
+/*=======
+How it is
+done
+==============*/
+
+.works {
+    margin-top: 10rem;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.works-title {
+    margin-top: 10rem;
+}
+
+.empolyee-item {
+    width: 450px;
+    height: 350px;
+}
+
+.empolyee-item img {
+    width: 200px;
+    height: 200px;
+    justify-content: center;
+    margin-left: 50px;
+}
+
+.text-empolyee h4 {
+    text-align: center;
+}
+
+.text-empolyee p {
+    padding: 0 25px 5px 3px;
+}
+
+
+/*=======
+What's great
+about it?
+==============*/
+
+.great-title {
+    margin-top: 10rem;
+    margin-bottom: 5rem;
+}
+
+.great-items {
+    width: 400px;
+    height: 150px;
+    padding: 25px;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.1);
+    margin-left: 20px;
+}
+
+.great-items span {
+    font-size: 25px;
+    margin-left: 20px;
+}
+
+
+/*========
+skills
+===================*/
+
+.skills-title {
+    margin-top: 10rem;
+}
+
+.row a {
+    margin-left: 40px;
+    width: 70px;
+    height: 40px;
+    color: #000000;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.row .modelling {
+    margin-left: -10px;
+}
+
+footer {
+    margin-top: 30px;
+    text-align: center;
+}
+
+hr {
+    border-top: 1px solid #c21818;
+}
+
+@media only screen and (max-width: 600px) {
+    header {
+        height: 1200px;
+    }
+    .banner-image {
+        transform: translateY(-10rem);
+        margin-left: -10rem;
+    }
+}

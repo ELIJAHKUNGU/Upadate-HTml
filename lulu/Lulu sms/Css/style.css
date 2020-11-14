@@ -1,0 +1,106 @@
+/*========
+
+============*/
+
+
+/*======
+Global 
+style
+=================*/
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    scroll-behavior: smooth;
+}
+
+
+/*=======
+navbar
+===========*/
+
+header {
+    height: 769px;
+    width: 100%;
+    background-color: rgb(7, 2, 26);
+}
+
+nav {
+    background-color: rgb(7, 2, 26);
+    height: 80px;
+}
+
+.menu-items {
+    margin-left: 20rem;
+}
+
+.nav-link li {
+    margin-left: 15px;
+}
+
+
+/*=========
+Banner
+Section
+=================*/
+
+.banner-section {
+    margin-top: 12rem;
+}
+
+.banner-section h1,
+.banner-section h2 {
+    color: #ffffff;
+}
+
+button {
+    width: 200px;
+    height: 60px;
+    margin-top: 50px;
+    background-color: #e40d0d;
+    border: none;
+    border-radius: 40px;
+    color: #ffffff;
+}
+
+button:hover {
+    background-color: #ffffff;
+    color: #000000;
+}
+
+.banner-image {
+    transform: translateY(-45rem);
+    margin-left: 45rem;
+}
+
+.banner-image img {
+    height: 500px;
+}
+
+.banner-section p {
+    color: #ffffff;
+    margin-top: 50px;
+}
+
+footer {
+    margin-top: 30px;
+    text-align: center;
+}
+
+hr {
+    border-top: 1px solid #c21818;
+}
+
+@media only screen and (max-width: 600px) {
+    header {
+        height: 1200px;
+    }
+    .banner-image {
+        transform: translateY(-10rem);
+        margin-left: -10rem;
+    }
+}
